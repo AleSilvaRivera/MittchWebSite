@@ -7,4 +7,4 @@ from django.shortcuts import render
 # returns the request
 def home_screen_view(request):
     print(request.headers)
-    return render(request, "base.html", {})
+    return render(request, "personal/home.html", {})

@@ -1,0 +1,13 @@
+# django block
+{% extends 'base.html'  %}
+
+{% block content %}
+<div style="border: 2px solid #000;">
+    <h1>
+        This is the body
+    </h1>
+    <p> Here where u put </p>
+    {% include 'personal/snippets/body_snippet.html' %}
+</div>
+
+{% endblock content %}
